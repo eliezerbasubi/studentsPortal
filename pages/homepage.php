@@ -17,6 +17,7 @@
         <!-- Our Custom CSS -->
         <!-- <link rel="stylesheet" href="style2.css"> -->
         <link rel="stylesheet" type="text/css" href="../css/main_style.css">
+		<!-- <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" media="all"> -->
         <!-- Scrollbar Custom CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 

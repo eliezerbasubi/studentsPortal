@@ -20,6 +20,7 @@
 			border-color: maroon;
 		}
 	</style>
+	<script src="loadData.js" async></script>
 </head>
 <body>
 	<div class="row">
@@ -57,6 +58,7 @@
 			  </table>
 		  </div>
     	</form>'?>
+			<input type="button" id="load" value="load page">
     </div>
 
     		<!-- jQuery offline mode -->
@@ -77,7 +79,8 @@
 				                type:    'post',
 				                success: function(res) {
 				                	$('#course_units').html(res);
-				                	console.log("success result is"+res)},
+													// console.log("success result is"+res)
+												},
 				                error:   function(res) {console.log("error in result"+res)}
 				            });
 					 	// },2000);
